@@ -19,7 +19,7 @@ function frendlyGreeting(name) {
 frendlyGreeting("Gerorge"); // Console logs "Howdy George"
 ```
 
-This is a standard operation proceedure, this is a function decleration. We can declare a function then call it where we like in our code.
+This is a standard operating proceedure, this is a function decleration. We can declare a function then call it where we like in our code.
 
 Here is a function expression:
 
@@ -71,4 +71,4 @@ There are two way to create these IIFE's, they will both execute in the same man
 
 ## What's the Point?
 
-I'll tell you, it removes things from the global scope. If you dont watch out things can get very messy very quickly, declairing variables left and right, declairing functions as you go. And then if you start colaberating on code with other developers, adding other .js files, libraries, and so on, things can start to mess with code that is gloably delcaired. Aka, don't air your dirty laundry. The global scope by definitly can be access by all the other JavaScript in your app. Immediatly invoked functions are a great way to compartmentalize and privatize your code. It can keep variables hidden from the rest of the code and allow you code to grow with less of a chance that you will need to go back and refactor everthing or spend days looking for that one piece of code messing with that one variable.
+I'll tell you, it removes things from the global scope. If you dont watch out things can get very messy very quickly, declairing variables left and right, declairing functions as you go. And then if you start colaberating on code with other developers, adding other .js files, libraries, and so on, things can start to mess with code that is gloably delcaired. Aka, don't air your dirty laundry. The global scope by definition can be accessed by all the other JavaScript in your app. Immediatly invoked functions are a great way to compartmentalize and privatize your code. It can keep variables hidden from the rest of the code and allow you code to grow with less of a chance that you will need to go back and refactor everthing or spend days looking for that one piece of code messing with that one variable.
